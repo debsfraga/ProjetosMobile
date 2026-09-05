@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.18.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\77b7b5c4780dd791d46a580faf98ebcb\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
@@ -24,49 +24,49 @@
 17-->[androidx.core:core:1.18.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\77b7b5c4780dd791d46a580faf98ebcb\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
+19-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
 20        android:allowBackup="true"
-20-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:7:9-35
+20-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:7:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.18.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\77b7b5c4780dd791d46a580faf98ebcb\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@drawable/ic_lancador"
-24-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:8:9-45
+24-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:8:9-45
 25        android:label="@string/app_name"
-25-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:9:9-41
+25-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:9:9-41
 26        android:supportsRtl="true"
-26-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:10:9-35
+26-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:10:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.RangoNaRegua" >
-28-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:11:9-50
+28-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:11:9-50
 29        <activity
-29-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:12:9-14:40
+29-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:12:9-14:40
 30            android:name="br.edu.unisenai.rangonaregua.DetalheActivity"
-30-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:13:13-44
+30-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:13:13-44
 31            android:exported="false" />
-31-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:14:13-37
+31-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:14:13-37
 32        <activity
-32-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:15:9-17:40
+32-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:15:9-17:40
 33            android:name="br.edu.unisenai.rangonaregua.NovoLugarActivity"
-33-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:16:13-46
+33-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:16:13-46
 34            android:exported="false" />
-34-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:17:13-37
+34-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:17:13-37
 35        <activity
-35-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:18:9-26:20
+35-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:18:9-26:20
 36            android:name="br.edu.unisenai.rangonaregua.MainActivity"
-36-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:19:13-41
+36-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:19:13-41
 37            android:exported="true" >
-37-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:20:13-36
+37-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:20:13-36
 38            <intent-filter>
-38-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:21:13-25:29
+38-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:21:13-25:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:17-69
-39-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:25-66
+39-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:17-69
+39-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:17-77
-41-->C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:27-74
+41-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:27-74
 42            </intent-filter>
 43        </activity>
 44

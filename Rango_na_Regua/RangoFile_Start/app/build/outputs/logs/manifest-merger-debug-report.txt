@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\12b4ad7ad3d7c76cb940c490cd1dacd4\workspace\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\25170544\.gradle\caches\9.1.0\transforms\25b312a09c9dbca181dbedfb82f8d9db\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\25170544\.gradle\caches\9.1.0\transforms\0a6ea6068e47ab3131f5146271f130ee\workspace\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -50,20 +50,20 @@ MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\25170544\.gradle\caches\9.
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\b91a08fb7066fe0954e9c7f2018af3f3\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\48e6039066369fa7664ed5306fa175fe\workspace\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:6:5-27:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\12b4ad7ad3d7c76cb940c490cd1dacd4\workspace\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\12b4ad7ad3d7c76cb940c490cd1dacd4\workspace\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\25170544\.gradle\caches\9.1.0\transforms\25b312a09c9dbca181dbedfb82f8d9db\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -81,51 +81,51 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\25170544
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\25170544\.gradle\caches\9.1.0\transforms\a96179964773bed38e89ac75706c9f29\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\25170544\.gradle\caches\9.1.0\transforms\a96179964773bed38e89ac75706c9f29\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.18.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\77b7b5c4780dd791d46a580faf98ebcb\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:8:9-45
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:8:9-45
 	android:allowBackup
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:11:9-50
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:11:9-50
 activity#br.edu.unisenai.rangonaregua.DetalheActivity
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:12:9-14:40
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:13:13-44
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:13:13-44
 activity#br.edu.unisenai.rangonaregua.NovoLugarActivity
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:16:13-46
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:16:13-46
 activity#br.edu.unisenai.rangonaregua.MainActivity
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\12b4ad7ad3d7c76cb940c490cd1dacd4\workspace\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\12b4ad7ad3d7c76cb940c490cd1dacd4\workspace\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\25170544\.gradle\caches\9.1.0\transforms\25b312a09c9dbca181dbedfb82f8d9db\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -217,9 +217,9 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\25170544\.gradle\ca
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\48e6039066369fa7664ed5306fa175fe\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\48e6039066369fa7664ed5306fa175fe\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\25170544\.gradle\caches\9.1.0\transforms\4f25ec0fb7299c9b5c7ac21a3eb6df4e\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\25170544\.gradle\caches\9.1.0\transforms\c9bf1c37ba445ecb121be6b20e000446\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20

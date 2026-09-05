@@ -29,10 +29,10 @@ br.edu.unisenai.rangonaregua.app-cardview-1.0.0-27 C:\Users\25170544\.gradle\cac
 br.edu.unisenai.rangonaregua.app-drawerlayout-1.1.1-28 C:\Users\25170544\.gradle\caches\9.1.0\transforms\f81dc9d030eec0601d726ed5000e2775\workspace\transformed\drawerlayout-1.1.1\res
 br.edu.unisenai.rangonaregua.app-activity-1.13.0-29 C:\Users\25170544\.gradle\caches\9.1.0\transforms\fb24f6d0cc4e063ba3cb5f163d416b90\workspace\transformed\activity-1.13.0\res
 br.edu.unisenai.rangonaregua.app-emoji2-views-helper-1.2.0-30 C:\Users\25170544\.gradle\caches\9.1.0\transforms\fe5e8199ddf6087e576a2ba12bc736dc\workspace\transformed\emoji2-views-helper-1.2.0\res
-br.edu.unisenai.rangonaregua.app-pngs-31 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\build\generated\res\pngs\debug
-br.edu.unisenai.rangonaregua.app-updated_navigation_xml-32 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\build\generated\updated_navigation_xml\debug
-br.edu.unisenai.rangonaregua.app-packageDebugResources-33 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-br.edu.unisenai.rangonaregua.app-packageDebugResources-34 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-br.edu.unisenai.rangonaregua.app-debug-35 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\build\intermediates\merged_res\debug\mergeDebugResources
-br.edu.unisenai.rangonaregua.app-debug-36 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\debug\res
-br.edu.unisenai.rangonaregua.app-main-37 C:\Users\25170544\Documents\Rango_na_Regua\RangoFile_Start\app\src\main\res
+br.edu.unisenai.rangonaregua.app-pngs-31 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\build\generated\res\pngs\debug
+br.edu.unisenai.rangonaregua.app-updated_navigation_xml-32 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\build\generated\updated_navigation_xml\debug
+br.edu.unisenai.rangonaregua.app-packageDebugResources-33 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+br.edu.unisenai.rangonaregua.app-packageDebugResources-34 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+br.edu.unisenai.rangonaregua.app-debug-35 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\build\intermediates\merged_res\debug\mergeDebugResources
+br.edu.unisenai.rangonaregua.app-debug-36 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\debug\res
+br.edu.unisenai.rangonaregua.app-main-37 C:\Users\25170544\Documents\ProjetosMobile\Rango_na_Regua\RangoFile_Start\app\src\main\res

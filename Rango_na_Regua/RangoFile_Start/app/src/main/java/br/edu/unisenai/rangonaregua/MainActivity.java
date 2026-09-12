@@ -3,28 +3,37 @@ package br.edu.unisenai.rangonaregua;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.firestore.ListenerRegistration;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import br.edu.unisenai.rangonaregua.adapter.LugarAdapter;
 import br.edu.unisenai.rangonaregua.data.Catalogo;
+import br.edu.unisenai.rangonaregua.data.LugarRepository;
 import br.edu.unisenai.rangonaregua.model.Lugar;
 
 
 public class MainActivity extends AppCompatActivity implements LugarAdapter.Acao {
+
+    private LugarRepository repository;
+    private ListenerRegistration registro;
 
     static List<Lugar> listaLugar = new ArrayList<>();
 
@@ -41,7 +50,9 @@ public class MainActivity extends AppCompatActivity implements LugarAdapter.Acao
             return insets;
         });
         // Carregar o Database
-        listaLugar = Catalogo.inicial();
+        //listaLugar = Catalogo.inicial();
+        repository = new LugarRepository();
+
 
         FloatingActionButton btNovo = findViewById(R.id.fabNovo);
         btNovo.setOnClickListener(v -> {
@@ -56,20 +67,60 @@ public class MainActivity extends AppCompatActivity implements LugarAdapter.Acao
         adapter = new LugarAdapter(listaLugar, this);
         rvLugares.setAdapter(adapter);
 
+        //Configurar o deslizar
+        configDeslizar();
+
+    }
+
+    private void configDeslizar(){
+        ItemTouchHelper.SimpleCallback deslizar = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+            @Override
+            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+                return false;
+            }
+
+            @Override
+            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                int posicao = viewHolder.getAdapterPosition();
+                Lugar item = listaLugar.get(posicao);
+                repository.excluir(item);
+
+                //Desfazer - voltar o item
+                Snackbar.make(findViewById(R.id.rvLugares), "Lugar Removido", Snackbar.LENGTH_LONG)
+                        .setAction("Desfazer", v -> repository.restaurar(item))
+                        .show();
+
+            }
+        };
+
+        new ItemTouchHelper(deslizar).attachToRecyclerView(findViewById(R.id.rvLugares));
     }
 
     @Override
     protected void onResume(){
         super.onResume();
-        adapter.notifyDataSetChanged();
+
+        registro = repository.lerRealTime((value, error) -> {
+          if (error != null) {
+              Log.e("ERRO", error.getMessage());
+              return;
+          }
+
+          listaLugar.clear();
+          listaLugar.addAll(value.toObjects(Lugar.class));
+          adapter.notifyDataSetChanged();
+
+        });
     }
 
     @Override
     public void votar(Lugar lugar){
-        lugar.setVotos(lugar.getVotos() +1);
+        //lugar.setVotos(lugar.getVotos() +1);
+        //Catalogo.ordenarPorVotos(listaLugar);
+        // adapter.notifyDataSetChanged();
 
-        Catalogo.ordenarPorVotos(listaLugar);
-        adapter.notifyDataSetChanged();
+        repository.votar(lugar);
+
     }
 
     @Override

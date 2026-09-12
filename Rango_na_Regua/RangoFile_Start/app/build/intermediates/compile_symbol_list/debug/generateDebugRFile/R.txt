@@ -52,6 +52,11 @@ int string erro_categoria 0x0
 int string erro_nome 0x0
 int string erro_preco 0x0
 int string erro_rede 0x0
+int string gcm_defaultSenderId 0x0
+int string google_api_key 0x0
+int string google_app_id 0x0
+int string google_crash_reporting_api_key 0x0
+int string google_storage_bucket 0x0
 int string hint_categoria 0x0
 int string hint_nome 0x0
 int string hint_observacao 0x0
@@ -64,6 +69,7 @@ int string menu_ver_lista 0x0
 int string novo_titulo 0x0
 int string previa_aviso 0x0
 int string previa_titulo 0x0
+int string project_id 0x0
 int string rotulo_categoria 0x0
 int string rotulo_preco 0x0
 int string rotulo_votos 0x0

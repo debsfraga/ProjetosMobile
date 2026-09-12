@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901635277243",
+    "project_id": "calangota-75afb",
+    "storage_bucket": "calangota-75afb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901635277243:android:d5a8ad0fc57a6b0488049e",
+        "android_client_info": {
+          "package_name": "br.edu.unisenai.rangonaregua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr69l_rd4W5eVnrX_KXX_ZMQxQyFDUvGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

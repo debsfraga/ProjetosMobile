@@ -1,15 +1,30 @@
 package br.edu.unisenai.rangonaregua.model;
 
+import com.google.firebase.firestore.DocumentId;
+
 import java.io.Serializable;
 
 
 public class Lugar implements Serializable {
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @DocumentId
+    private String id;
 
     private String nome;
     private String categoria;
     private double precoMedio;
     private String observacao;
     private int votos;
+
+    public Lugar() {}
 
     public Lugar(String nome, String categoria, double precoMedio, String observacao, int votos) {
         this.nome = nome;

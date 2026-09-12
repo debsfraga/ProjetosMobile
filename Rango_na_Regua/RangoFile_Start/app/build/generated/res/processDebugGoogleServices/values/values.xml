@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">901635277243</string>
+    <string name="google_api_key" translatable="false">AIzaSyCr69l_rd4W5eVnrX_KXX_ZMQxQyFDUvGI</string>
+    <string name="google_app_id" translatable="false">1:901635277243:android:d5a8ad0fc57a6b0488049e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCr69l_rd4W5eVnrX_KXX_ZMQxQyFDUvGI</string>
+    <string name="google_storage_bucket" translatable="false">calangota-75afb.firebasestorage.app</string>
+    <string name="project_id" translatable="false">calangota-75afb</string>
+</resources>

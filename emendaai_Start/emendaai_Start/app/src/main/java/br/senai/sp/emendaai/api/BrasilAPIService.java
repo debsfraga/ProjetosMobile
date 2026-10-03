@@ -2,6 +2,7 @@ package br.senai.sp.emendaai.api;
 
 import java.util.List;
 
+import br.senai.sp.emendaai.model.Endereco;
 import br.senai.sp.emendaai.model.Feriado;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -12,4 +13,6 @@ public interface BrasilAPIService {
     @GET("feriados/v1/{ano}")
     Call<List<Feriado>> buscarFeriados(@Path("ano") int numeroAno);
 
+    @GET("cep/v2/{cep}")
+    Call<Endereco> bucarEndereco(@Path("cep") String numeroCep);
 }

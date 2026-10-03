@@ -1,4 +1,4 @@
-#Fri Sep 25 21:36:10 BRT 2026
+#Fri Oct 02 21:59:44 BRT 2026
 base.0=C\:\\Users\\25170544\\Documents\\ProjetosMobile\\emendaai_Start\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\25170544\\Documents\\ProjetosMobile\\emendaai_Start\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\25170544\\Documents\\ProjetosMobile\\emendaai_Start\\emendaai_Start\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex

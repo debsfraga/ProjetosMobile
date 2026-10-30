@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                                 imgFoto.setImageURI(null);
                                 imgFoto.setImageURI(fotoUri);
                                 txtStatus.setText("Foto tirada com sucesso!");
+                                btnEnviar.setEnabled(true);
                             },3000);
                         }
                     });
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        initCloudinary();
         imgFoto = findViewById(R.id.imgFoto);
         btnTirarFoto = findViewById(R.id.btnTirarFoto);
         btnEnviar = findViewById(R.id.btnEnviar);
@@ -116,6 +118,64 @@ public class MainActivity extends AppCompatActivity {
         btnGaleria.setOnClickListener(v -> {
             abrirGaleria();
         });
+
+        btnEnviar.setOnClickListener(v -> {
+            enviarNuvem();
+        });
+
+        txtStatus.setOnClickListener(v -> {
+            Intent rota = new Intent (this, VerImagem.class);
+            rota.putExtra("url", urlNuvem);
+            startActivity(rota);
+        });
+    }
+
+
+
+    private void enviarNuvem() {
+        if (fotoUri == null) return;
+
+        salvarGaleria();
+
+        progress.setVisibility(View.VISIBLE);
+        btnEnviar.setEnabled(false);
+        txtStatus.setText("Enviando foto para nuvem...");
+
+        // enviando
+        MediaManager.get()
+                .upload(fotoUri)
+                .unsigned("fotonuvemA")
+                .option("folder", "turmaA")
+                .callback(new UploadCallback() {
+                    @Override
+                    public void onStart(String requestId) {
+
+                    }
+
+                    @Override
+                    public void onProgress(String requestId, long bytes, long totalBytes) {
+
+                    }
+
+                    @Override
+                    public void onSuccess(String requestId, Map resultData) {
+                        // obter a URL da foto na nuvem
+                        urlNuvem = (String) resultData.get("secure_url");
+                        progress.setVisibility(View.GONE);
+                        btnEnviar.setEnabled(true);
+                        txtStatus.setText(urlNuvem);
+                    }
+
+                    @Override
+                    public void onError(String requestId, ErrorInfo error) {
+
+                    }
+
+                    @Override
+                    public void onReschedule(String requestId, ErrorInfo error) {
+
+                    }
+                }).dispatch();
     }
 
     private void abrirGaleria() {
@@ -151,14 +211,30 @@ public class MainActivity extends AppCompatActivity {
             Log.e("Cloudinary", "Erro ao inicializar Cloudinary", e);
         }
     }
+
+    private void salvarGaleria(){
+        ContentValues dados = new ContentValues();
+        dados.put(MediaStore.Images.Media.DISPLAY_NAME, "fotoA_" + System.currentTimeMillis()/1000 + ".jpg");
+        dados.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
+        dados.put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/TurmaA");
+
+        Uri imageSalva = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, dados);
+
+        //transferir a foto TMP para a Galeria
+
+        try {
+            InputStream in = getContentResolver().openInputStream(fotoUri);
+            OutputStream out = getContentResolver().openOutputStream(imageSalva);
+
+            byte[] buf = new byte[1024];
+            int len;
+            while((len = in.read(buf))>0){
+                out.write(buf, 0, len);
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 }
-
-// enviando
-MediaManager.get()
-•Upload(fotoUri)
-•unsigned ("fotonuvemA")
-• option("folder", "turmaA")
-•callback(new UploadCallback()
-
 
 

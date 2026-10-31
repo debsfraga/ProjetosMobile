@@ -7,7 +7,7 @@ public final class Config {
 
     private Config() { }
 
-    public static final String MODELO = "gemini-3.5-flash";
+    public static final String MODELO = "gemini-3.5-flash-lite";
 
     /** Persona do chat. O usuário nunca vê este texto, mas ele vai junto em toda requisição. */
     public static final String INSTRUCAO_CHEF =
